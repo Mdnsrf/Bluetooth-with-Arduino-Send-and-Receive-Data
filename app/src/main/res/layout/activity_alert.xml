@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlertActivity" >
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="372dp"
+        android:layout_height="187dp"
+        android:background="#FF1515"
+        android:ellipsize="end"
+        app:chipIconTint="#783434"
+        app:chipStrokeColor="#FF0F0F"
+        app:closeIconTint="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="238dp"
+        android:layout_height="113dp"
+        android:rotationX="-2"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="50dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
